@@ -1348,6 +1348,20 @@ a:active {
 /*--------------------------------------------------------------
 9.3 - Layout
 --------------------------------------------------------------*/
+.site-branding {
+	width: 100%;
+	background-color: #fff;
+	background-image: url(http://durchgewirbelt.de/wp-content/uploads/2014/08/header-durchgewirbelt.png);
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+}
+
+.site-branding h1,
+.site-branding h2
+{
+	display: hidden;
+}
 
 /*--------------------------------------------------------------
 9.4 - Design
