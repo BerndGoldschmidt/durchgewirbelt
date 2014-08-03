@@ -1350,6 +1350,7 @@ a:active {
 --------------------------------------------------------------*/
 .site-branding {
 	width: 100%;
+	height: 250px;
 	background-color: #fff;
 	background-image: url(http://durchgewirbelt.de/wp-content/uploads/2014/08/header-durchgewirbelt.png);
 	background-repeat: no-repeat;
@@ -1366,3 +1367,6 @@ a:active {
 /*--------------------------------------------------------------
 9.4 - Design
 --------------------------------------------------------------*/
+div#page {
+	background-image: url(http://durchgewirbelt.de/wp-content/uploads/2014/08/background-unsplash-15-leaf.jpg);
+}
