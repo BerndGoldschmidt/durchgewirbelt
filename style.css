@@ -1361,7 +1361,7 @@ a:active {
 .site-branding h1,
 .site-branding h2
 {
-	display: hidden;
+	display: none;
 }
 
 /*--------------------------------------------------------------
