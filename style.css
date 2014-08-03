@@ -43,6 +43,11 @@ Padhang is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic
 	6.1 - Social menu
 7.0 - Media
 8.0 - Genericons
+9.0 - durchgewirbelt specific setings
+	9.1 - Fonts
+	9.2 - Typography
+	9.3 - Layout
+	9.4 - Design
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -136,14 +141,14 @@ input,
 select,
 textarea {
 	color: #667272;
-	font-family: 'Courier New', Courier, monospace, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 1.6;
 }
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
-	font-family: 'Crafty Girls', serif;
+	font-family: 'Bitter', serif;
 	font-weight: normal
 }
 h1 {
@@ -181,7 +186,7 @@ address {
 }
 pre {
 	background: #eee;
-	font-family: 'Courier New', Courier, monospace, sans-serif;
+	font-family: "Courier 10 Pitch", Courier, monospace;
 	font-size: 15px;
 	font-size: 1.5rem;
 	line-height: 1.6;
@@ -502,7 +507,7 @@ a:active {
 	padding: 10rem 0;
 }
 .site-title {
-	font-family: 'Crafty Girls', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 5.2rem;
 	font-weight: 700;
 	line-height: 1.2;
@@ -1306,3 +1311,32 @@ object {
     font-weight: normal;
     font-style: normal;
 }
+
+/*--------------------------------------------------------------
+9.0 durchgewirbelt specific settings
+	font-family: 'Crafty Girls', serif;
+	font-family: 'Courier New', Courier, monospace, sans-serif;
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+9.1 - Fonts
+--------------------------------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Crafty+Girls);
+
+/*--------------------------------------------------------------
+9.2 - Typography
+--------------------------------------------------------------*/
+html, body {
+	font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Crafty Girls', serif;
+}
+/*--------------------------------------------------------------
+9.3 - Layout
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+9.4 - Design
+--------------------------------------------------------------*/
+
